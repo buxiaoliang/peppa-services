@@ -1,0 +1,5 @@
+rootProject.name = 'peppa-services'
+include 'peppa-dao'
+include 'peppa-service'
+include 'peppa-web'
+
