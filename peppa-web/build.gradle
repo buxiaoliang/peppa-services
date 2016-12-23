@@ -1,12 +1,11 @@
 apply plugin: 'org.springframework.boot'
 
 jar {
-    baseName = 'peppa-services'
+    baseName = 'peppa-web'
     version =  'MAIN-SNAPSHOT'
 }
 
 dependencies {
-    compile project(':peppa-service')
     compile("org.springframework.boot:spring-boot-starter-thymeleaf")
     compile("org.springframework.boot:spring-boot-starter-security")
     testCompile("org.springframework.boot:spring-boot-starter-test")

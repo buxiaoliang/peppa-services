@@ -1,3 +1,10 @@
+apply plugin: 'org.springframework.boot'
+
+jar {
+    baseName = 'peppa-services'
+    version =  'MAIN-SNAPSHOT'
+}
+
 dependencies {
     compile project(':peppa-dao')
 }
