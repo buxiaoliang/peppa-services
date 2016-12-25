@@ -1,4 +1,4 @@
-package com.xiao.peppa.dao;
+package com.xiao.peppa;
 
 import java.util.List;
 

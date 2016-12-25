@@ -1,5 +1,5 @@
 // tag::sample[]
-package com.xiao.peppa.dao;
+package com.xiao.peppa;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

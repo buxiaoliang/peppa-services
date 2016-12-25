@@ -1,7 +1,7 @@
-package com.xiao.peppa.service;
+package com.xiao.peppa.controller;
 
-import com.xiao.peppa.dao.User;
-import com.xiao.peppa.dao.UserDao;
+import com.xiao.peppa.model.User;
+import com.xiao.peppa.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.ResponseBody;
 /**
  * A class to test interactions with the MySQL database using the UserDao class.
  *
- * @author netgloo
+ * @author bu
  */
 @Controller
 public class UserController {

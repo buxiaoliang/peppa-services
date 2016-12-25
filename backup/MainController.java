@@ -1,4 +1,4 @@
-package com.xiao.peppa.service;
+package com.xiao.peppa.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

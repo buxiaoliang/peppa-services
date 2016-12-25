@@ -1,4 +1,4 @@
-package com.xiao.peppa.service;
+package com.xiao.peppa.web;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

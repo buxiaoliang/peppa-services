@@ -1,11 +1,4 @@
-apply plugin: 'org.springframework.boot'
-
-jar {
-    baseName = 'peppa-services'
-    version =  'MAIN-SNAPSHOT'
-}
-
 dependencies {
     compile project(':peppa-dao')
-    compile("org.springframework.boot:spring-boot-starter-web")
+    compile("org.springframework.boot:spring-boot-starter-security")
 }

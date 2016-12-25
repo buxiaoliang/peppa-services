@@ -1,4 +1,4 @@
-package com.xiao.peppa.service;
+package com.xiao.peppa.web;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
