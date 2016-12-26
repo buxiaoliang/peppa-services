@@ -3,7 +3,7 @@ peppa services examples
 
 ## Startup
 * create a database named "peppa"
-* java -jar peppa-web/build/libs/peppa-web-MAIN-SNAPSHOT.war
+* java -jar peppa-web/build/libs/peppa-web-MAIN-SNAPSHOT.war -Dserver.port=8080
 
 ## Authentication
 * Form authentication
