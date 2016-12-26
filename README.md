@@ -2,7 +2,7 @@
 peppa services examples
 
 ## Startup
-java -jar build/libs/peppa-services-MAIN-SNAPSHOT.jar
+java -jar peppa-web/build/libs/peppa-web-MAIN-SNAPSHOT.war
 
 ## Authentication
 * Form authentication

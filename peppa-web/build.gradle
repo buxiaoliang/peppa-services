@@ -1,6 +1,7 @@
 apply plugin: 'org.springframework.boot'
+apply plugin: 'war'
 
-jar {
+war {
     baseName = 'peppa-web'
     version =  'MAIN-SNAPSHOT'
 }
