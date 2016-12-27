@@ -14,7 +14,7 @@ peppa services examples
 * http://localhost:8080/login to log in
 
 ## Rest
-* http://localhost:8080/users with baisc authentication using postman
+* http://localhost:8080/rest/users with baisc authentication using postman
 
 ## Build
 gradlew build
